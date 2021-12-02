@@ -76,19 +76,23 @@ function swapItems(fromIndex, toIndex) {
 }
 
 function togglePopup(e) {
+  //모달창에 들어갈 사진 지정
   const popupContent = document.querySelector('.popup-body');
   const popupImgTemplate = `<img class="popup-content" src="${e.target.src}" alt="pet-img">`;
   popupContent.innerHTML = popupImgTemplate;
 
+  //모달창 열었다 닫았다
   const popup = document.querySelector('.popup-wrap');
   popup.classList.toggle('popup-open');
 
+  //닫힘 버튼
   popup.addEventListener('click', e => {
     if (e.target.classList.contains('close')) {
       popup.classList.remove('popup-open');
     }
   });
 
+  //슬라이드
   const controlBtns = document.querySelectorAll('.btn-style');
   let currentIndex = Number(e.target.parentNode.getAttribute('data-index'));
 
