@@ -1,8 +1,7 @@
 # My pet gallery🐶
 - 본 프로젝트는 이미지 갤러리 웹사이트 입니다.
 - 사용된 사진은 저희 집 강아지 사진입니다.
-![](https://github.com/moonyerim2/my-pet-gallery/img/screenshot.png)
-
+![screencapture-moonyerim2-github-io-my-pet-gallery-2021-12-02-14_21_49](https://user-images.githubusercontent.com/75062526/144363234-4d19b075-8936-46a0-b6be-5b0e137652aa.png)
 
 ## 기능
 - 이미지 뷰어
